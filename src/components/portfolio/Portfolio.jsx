@@ -4,6 +4,33 @@ import IMG1 from '../../assets/Decentralized.png'
 import IMG2 from '../../assets/todo.png'
 import IMG3 from '../../assets/spotify.png'
 
+const data = [
+  {
+    id: 1,
+    image: IMG1,
+    title: "A Decentralized Voting Web Application",
+    git: "https://github.com/abhishektripathi007",
+    demo: "https://dribbble.com/AbhishekTripathi"
+  },
+
+  {
+    id: 2,
+    image: IMG2,
+    title: "A ToDo List Site",
+    git: "https://github.com/abhishektripathi007",
+    demo: 'ToDoList.html'
+  },
+
+  {
+    id: 3,
+    image: IMG3,
+    title: "A Spotify Clone",
+    git: "https://github.com/abhishektripathi007",
+    demo: "https://dribbble.com/AbhishekTripathi"
+  },
+
+]
+
 export const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -11,36 +38,26 @@ export const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio_container">
-        <article className="portfolio-item">
-          <div className="portfolio-item-image">
-            <img src={IMG1} alt="Decentralized" />
-          </div>
-          <h3>A Decentralized Voting Web Application</h3>
-          <a href="https://github.com/abhishektripathi007" className='btn' target='_blank'>Github</a>
-          <a href="https://dribbble.com/AbhishekTripathi" className='btn btn-primary' target='_blank'>Live Demo</a>
-        </article>
-
-        <article className="portfolio-item">
-          <div className="portfolio-item-image">
-            <img src={IMG2} alt="todo" />
-          </div>
-          <h3>A ToDo List Site</h3>
-          <a href="https://github.com/abhishektripathi007" className='btn' target='_blank'>Github</a>
-          <a href="https://dribbble.com/AbhishekTripathi" className='btn btn-primary' target='_blank'>Live Demo</a>
-        </article>
-
-        <article className="portfolio-item">
-          <div className="portfolio-item-image">
-            <img src={IMG3} alt="Spotify" />
-          </div>
-          <h3>A Spotify Clone</h3>
-          <a href="https://github.com/abhishektripathi007" className='btn' target='_blank'>Github</a>
-          <a href="https://dribbble.com/AbhishekTripathi" className='btn btn-primary' target='_blank'>Live Demo</a>
-        </article>
+        {
+          data.map(({ id, image, title, git, demo }) => {
+            return (
+              <article key={id} className="portfolio-item">
+                <div className="portfolio-item-image">
+                  <img src={image} alt="Decentralized" />
+                </div>
+                <h3>{title}</h3>
+                <div className="portfolio_cta">
+                  <a href={git} className='btn' target='_blank'>Github</a>
+                  <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                </div>
+              </article>
+            )
+          })
+        }
 
       </div>
     </section>
   )
 }
 
-export default  Portfolio
+export default Portfolio

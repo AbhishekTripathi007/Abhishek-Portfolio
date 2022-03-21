@@ -31,7 +31,31 @@
     /* top leftright and bottom margin size*/
 }
 
-.btn {
+.portfolio_cta {
+    display: flex;
     gap: 1rem;
-    /* grid-template-columns: repeat(1, 3fr); */
+    margin-bottom: 1rem;
+}
+
+/*  =========================media querues (medium devices)======*/
+
+@media screen  and  (max-width: 1024px) {
+
+    .portfolio_container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+    
+}
+
+
+
+/*  =========================media querues (small devices)======*/
+
+@media screen  and  (max-width: 600px) {  
+
+    .portfolio_container {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
 }

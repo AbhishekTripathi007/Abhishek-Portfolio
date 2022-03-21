@@ -24,27 +24,27 @@ export const Service = () => {
           <ul className="service_list">
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Core Java.</p>
             </li>
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Java based web services.</p>
             </li>
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>JSP.</p>
             </li>
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>XML.</p>
             </li>
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Java IDE such as Eclipse, Intellij IDEA based Developement.</p>
             </li>
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Relational Database, SQL.</p>
             </li>
 
           </ul>
@@ -61,31 +61,31 @@ export const Service = () => {
           <ul className="service_list">
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Frontend Developement using HTML, CSS, JavaScript.</p>
             </li>
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Backend Developement using Node.js.</p>
             </li>
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Backend Developement using PHP.</p>
             </li>
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Frontend Scripting using React.js .</p>
             </li>
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Deployment of React website using AWS Amplify.</p>
             </li>
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Responsive Web Designing using CSS.</p>
             </li>
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Database management using phpmyadmin.</p>
             </li>
 
           </ul>
@@ -102,27 +102,27 @@ export const Service = () => {
           <ul className="service_list">
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Hosting on AWS.</p>
             </li>
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Creating Website on loal servers such as Xampp.</p>
             </li>
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>App Developement using Android.</p>
             </li>
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Project Management tools such as Git and GitHub.</p>
             </li>
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Non Relational Database Management using MongoDB.</p>
             </li>
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Relational Database Management System using MySQL.</p>
             </li>
 
           </ul>
