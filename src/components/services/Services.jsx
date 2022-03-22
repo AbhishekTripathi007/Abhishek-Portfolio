@@ -73,7 +73,7 @@ export const Service = () => {
             </li>
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Frontend Scripting using React.js .</p>
+            <p>Frontend Scripting using React.js.</p>
             </li>
             <li>
             <BiCheck className='service_list-icon' />
@@ -106,7 +106,7 @@ export const Service = () => {
             </li>
             <li>
             <BiCheck className='service_list-icon' />
-            <p>Creating Website on loal servers such as Xampp.</p>
+            <p>Creating Website on local servers such as Xampp.</p>
             </li>
             <li>
             <BiCheck className='service_list-icon' />

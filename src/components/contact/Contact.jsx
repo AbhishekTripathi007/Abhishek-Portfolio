@@ -47,7 +47,7 @@ const sendEmail = (e) => {
             <BsWhatsapp className='contact_option-icon' />
             <h4>WhatsApp</h4>
             <h5>Abhishek Tripathi</h5>
-            <a href="https://api.whatsapp.com/send?phone=+918004242516" target='_blank'>Send Message</a>
+            <a href="https://api.whatsapp.com/send?phone=+917985617963" target='_blank'>Send Message</a>
 
           </article>
 

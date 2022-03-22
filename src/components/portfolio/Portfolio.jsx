@@ -9,24 +9,24 @@ const data = [
     id: 1,
     image: IMG1,
     title: "A Decentralized Voting Web Application",
-    git: "https://github.com/abhishektripathi007",
-    demo: "https://dribbble.com/AbhishekTripathi"
+    git: "https://github.com/AbhishekTripathi007/A-Decentralized-Voting-Web-Application",
+    demo: "https://github.com/AbhishekTripathi007/A-Decentralized-Voting-Web-Application"
   },
 
   {
     id: 2,
     image: IMG2,
     title: "A ToDo List Site",
-    git: "https://github.com/abhishektripathi007",
-    demo: 'ToDoList.html'
+    git: "https://github.com/AbhishekTripathi007/ToDoList",
+    demo: "https://abhishekportfolio.s3.amazonaws.com/ToDoList/ToDoList.html"
   },
 
   {
     id: 3,
     image: IMG3,
     title: "A Spotify Clone",
-    git: "https://github.com/abhishektripathi007",
-    demo: "https://dribbble.com/AbhishekTripathi"
+    git: "https://github.com/AbhishekTripathi007/Spotify-Clone",
+    demo: "https://abhishekportfolio.s3.amazonaws.com/Spotify+Clone/index.html"
   },
 
 ]
