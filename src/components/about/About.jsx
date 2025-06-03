@@ -1,14 +1,13 @@
-import React from 'react'
-import './about.css'
-import ME from '../../assets/aboutme.jpg'
-import { FaAward } from 'react-icons/fa'
-import { FiUsers } from 'react-icons/fi'
-import { VscFolderLibrary } from 'react-icons/vsc'
-
+import React from "react";
+import "./about.css";
+import ME from "../../assets/aboutme.jpg";
+import { FaAward } from "react-icons/fa";
+import { FiUsers } from "react-icons/fi";
+import { VscFolderLibrary } from "react-icons/vsc";
 
 export const About = () => {
   return (
-    <section id='about'>
+    <section id="about">
       <h5>Get to Know</h5>
       <h2>About Me</h2>
 
@@ -21,39 +20,44 @@ export const About = () => {
 
         <div className="about_content ">
           <div className="about_cards">
-            <article className='about_card'>
-              <FaAward className='about-icon' />
+            <article className="about_card">
+              <FaAward className="about-icon" />
               <h5>Experience</h5>
 
-              <small>Freshers</small>
-
+              <small>Fullstack</small>
             </article>
 
-            <article className='about_card'>
-              <FiUsers className='about-icon' />
+            <article className="about_card">
+              <FiUsers className="about-icon" />
               <h5>Clients</h5>
 
-              <small>None for Now</small>
-
+              <small>5+</small>
             </article>
 
-            <article className='about_card'>
-              <VscFolderLibrary className='about-icon' />
+            <article className="about_card">
+              <VscFolderLibrary className="about-icon" />
               <h5>Projects</h5>
 
               <small>5+</small>
-
             </article>
-
           </div>
           <p>
-            Hello, I am Abhishek Tripathi a B.Tech(C.S.E) 2021 passout. I am currently seeking a beginner role to enhance and explore my technical knowledge as a FullStack and Software Developer.
+            Results-oriented Full Stack Developer with 3+ years of experience
+            building scalable, secure web applications using Java, Spring Boot,
+            React, and AWS. Expert in microservices architecture, RESTful API
+            design, and database optimization (MongoDB, MySQL). Proven ability
+            to lead agile teams and implement robust cybersecurity measures,
+            including AES encryption and Vault integration. Committed to
+            delivering high-performance, production-grade software that drives
+            real business value
           </p>
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;
