@@ -19,11 +19,11 @@ export const Footer = () => {
       </ul>
       <div className="footer_socials">
         
-        <a href="https://www.facebook.com/gorakh.nath.98/" target="_blank"><FaFacebookF /></a>
+        <a href="https://www.facebook.com/gorakh.nath.98/" rel='noreferrer'><FaFacebookF /></a>
         
-        <a href="https://www.instagram.com/_abhishek.tripathi_/" target="_blank"><FiInstagram /></a>
+        <a href="https://www.instagram.com/_abhishek.tripathi_/" rel='noreferrer'><FiInstagram /></a>
         
-        <a href="https://twitter.com/Abhishe95377083" target="_blank"><IoLogoTwitter /></a>
+        <a href="https://twitter.com/Abhishe95377083" rel='noreferrer'><IoLogoTwitter /></a>
       </div>
 
 <div className="footer_copyright">

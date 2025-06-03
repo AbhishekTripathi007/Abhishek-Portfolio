@@ -33,21 +33,21 @@ const sendEmail = (e) => {
             <MdOutlineEmail className='contact_option-icon'/>
             <h4>Send an Email</h4>
             <h5>omg.gorakh@gmail.com</h5>
-            <a href="mailto:omg.gorakh@gmail.com" target='_blank'>Send Message</a>
+            <a href="mailto:omg.gorakh@gmail.com" rel='noreferrer'>Send Message</a>
 
           </article>
           <article className="contact_option">
             <RiMessengerLine className='contact_option-icon' />
             <h4>Messenger</h4>
             <h5>Abhishek Tripathi</h5>
-            <a href="https://m.me/gorakh.nath.98" target='_blank'>Send Message</a>
+            <a href="https://m.me/gorakh.nath.98" rel='noreferrer'>Send Message</a>
 
           </article>
           <article className="contact_option">
             <BsWhatsapp className='contact_option-icon' />
             <h4>WhatsApp</h4>
             <h5>Abhishek Tripathi</h5>
-            <a href="https://api.whatsapp.com/send?phone=+917985617963" target='_blank'>Send Message</a>
+            <a href="https://api.whatsapp.com/send?phone=+917985617963" rel='noreferrer'>Send Message</a>
 
           </article>
 
